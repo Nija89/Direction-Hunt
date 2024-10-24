@@ -112,6 +112,9 @@ class Controller {
                 System.out.println("Only Enter Available Loaciton.");
             }
             if (chance < 1) {
+                System.out.println("===========================");
+                System.out.println("Remaining Chance : " + chance);
+                System.out.println("===========================");
                 System.out.println("You Lose.");
                 System.out.println("Correct Answer is " + location.get(randomNum).getLocationDescription());
                 isTrue = false;
