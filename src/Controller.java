@@ -98,7 +98,8 @@ class Controller {
                     found = true;
                     direction = currentSelectedLocation.get(selectedKey);
                     if (randomNum == direction) {
-                        System.out.println("You Won. ");
+                        System.out.println("You Won. ");                
+                        System.out.println("Correct Answer is " + location.get(randomNum).getLocationDescription());
                         isTrue = false;
                     } else {
                         chance = chance - 1;
